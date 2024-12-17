@@ -5,7 +5,7 @@ void addItem(int *arr,int addNumber, int addIndex, int length){
     }
     arr[addIndex]=addNumber;
 }
-int main(int argc, const char * argv[]) {
+int main() {
     int a[8]={1,2,3,4,5,6,7};
     int length = sizeof(a)/sizeof(int);
     addItem(a, 8, 3, length);
