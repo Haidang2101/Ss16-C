@@ -8,7 +8,7 @@ void reverse(char *a,int length){
         a[length-1-i]=temp;
     }
 }
-int main(int argc, const char * argv[]) {
+int main() {
     char inputString[]="hello world";
     long long length = strlen(inputString);
     char reverseString[length+1];
